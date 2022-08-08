@@ -17,9 +17,9 @@ import sys
 def parse_args():
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('-u', dest='username', help="AXL username", required=False, default='administrator')
-    parser.add_argument('-p', dest='password', help="AXL user password", required=False, default='ciscopsdt')
-    parser.add_argument('-s', dest='server', help="CUCM hostname or IP address", required=False,default='10.194.104.83')
+    parser.add_argument('-u', dest='username', help="AXL username", required=False, default='administrator_username')
+    parser.add_argument('-p', dest='password', help="AXL user password", required=False, default='administrator_password')
+    parser.add_argument('-s', dest='server', help="CUCM hostname or IP address", required=False,default='your_UCM_server')
     args = parser.parse_args()
     return vars(args)
 
