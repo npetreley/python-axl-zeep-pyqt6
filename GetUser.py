@@ -64,7 +64,6 @@ class MainWindow(QWidget):
         hbox = QHBoxLayout()
         hbox.addWidget(button)
         hbox.addWidget(self.input)
-        self.input.setText('nicholas')
 
         button.clicked.connect(self.search_user)
 
